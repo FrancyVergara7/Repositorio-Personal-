@@ -1,0 +1,39 @@
+html{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+body{
+    background-image: url(../img/bg-tablet-pattern.svg);
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 3px red;
+    padding: 2%;
+}
+header ul{
+    display: flex;
+    margin: 0 20px;
+}
+header ul li{
+    margin: 0px 20px;
+}
+.get{
+    background-color: #F3603B;
+    border-color: #F3603B;
+    border-radius: 20px;
+    padding:0.5% 1%;
+}
+.get a{
+    color: white;
+    text-decoration: none;
+}
+#banner{
+    border: solid 4px blue;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+#banner h1{
+    color: #232C50;
+    font-size: 3.5rem;
